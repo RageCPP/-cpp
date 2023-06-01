@@ -33,6 +33,11 @@ install() {
   cmake --install "$build_path"
 }
 
+clear() {
+  rm -rf "$build_path"
+  rm -rf "$install_path"
+}
+
 main() {
   case $1 in
   -g)
@@ -43,6 +48,9 @@ main() {
   ;;
   -i)
     install
+  ;;
+  -c)
+    clear
   ;;
   *)
     if [ -z "$1" ]; then
