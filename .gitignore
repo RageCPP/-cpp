@@ -5,3 +5,4 @@ protobuf/*
 **/ubuntu-22-04/*
 !**/ubuntu-22-04/googletest.sh
 !**/ubuntu-22-04/abseil-cpp.sh
+!**/ubuntu-22-04/protobuf.sh
