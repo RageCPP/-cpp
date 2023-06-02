@@ -10,3 +10,5 @@ CLI11/*
 !**/ubuntu-22-04/protobuf.sh
 !**/ubuntu-22-04/boost.sh
 !**/ubuntu-22-04/CLI11.sh
+!**/ubuntu-22-04/sqlite3.sh
+
