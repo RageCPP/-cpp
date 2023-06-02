@@ -4,6 +4,7 @@ protobuf/*
 boost/*
 CLI11/*
 libgit2/*
+protobuf/*
 
 **/ubuntu-22-04/*
 !**/ubuntu-22-04/googletest.sh
@@ -12,4 +13,5 @@ libgit2/*
 !**/ubuntu-22-04/boost.sh
 !**/ubuntu-22-04/CLI11.sh
 !**/ubuntu-22-04/sqlite3.sh
+!**/ubuntu-22-04/libgit2.sh
 
