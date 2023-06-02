@@ -3,6 +3,7 @@ abseil-cpp/*
 protobuf/*
 boost/*
 CLI11/*
+libgit2/*
 
 **/ubuntu-22-04/*
 !**/ubuntu-22-04/googletest.sh

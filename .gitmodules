@@ -10,3 +10,6 @@
 [submodule "CLI11"]
 	path = CLI11
 	url = https://github.com/CLIUtils/CLI11.git
+[submodule "libgit2"]
+	path = libgit2
+	url = https://github.com/libgit2/libgit2.git
