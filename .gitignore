@@ -5,6 +5,7 @@ boost/*
 CLI11/*
 libgit2/*
 protobuf/*
+benchmark/*
 
 **/ubuntu-22-04/*
 !**/ubuntu-22-04/googletest.sh

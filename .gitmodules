@@ -16,3 +16,6 @@
 [submodule "capnproto"]
 	path = capnproto
 	url = https://github.com/capnproto/capnproto.git
+[submodule "benchmark"]
+	path = benchmark
+	url = https://github.com/google/benchmark.git
