@@ -19,3 +19,6 @@
 [submodule "benchmark"]
 	path = benchmark
 	url = https://github.com/google/benchmark.git
+[submodule "re2"]
+	path = re2
+	url = https://github.com/google/re2.git
