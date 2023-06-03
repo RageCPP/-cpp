@@ -24,7 +24,8 @@ generate_build() {
     cmake -DCMAKE_CXX_STANDARD=17 \
     -DCMAKE_BUILD_TYPE=Release \
     -DBENCHMARK_USE_BUNDLED_GTEST:BOOL=OFF \
-    -DGTEST_ROOT:PATH="$google_install_path" \
+    -DCMAKE_PREFIX_PATH:PATH="$google_install_path" \
+    -DCMAKE_INSTALL_PREFIX="$install_path" \
     -S "$source_path" \
     -B "$build_path"
   else
