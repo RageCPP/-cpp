@@ -15,4 +15,5 @@ benchmark/*
 !**/ubuntu-22-04/CLI11.sh
 !**/ubuntu-22-04/sqlite3.sh
 !**/ubuntu-22-04/libgit2.sh
+!**/ubuntu-22-04/benchmark.sh
 
