@@ -1,3 +1,5 @@
+#!/bin/sh
+
 root_path="$(pwd)"
 source_path="$root_path/../boost/"
 build_path="$root_path/../ubuntu-22-04/boost_build/"

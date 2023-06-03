@@ -1,3 +1,5 @@
+#!/bin/sh
+
 root_path="$(pwd)"
 source_path="$root_path/../protobuf/"
 build_path="$root_path/protobuf_build/"

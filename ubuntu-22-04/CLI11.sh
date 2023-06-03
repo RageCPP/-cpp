@@ -1,3 +1,5 @@
+#!/bin/sh
+
 root_path="$(pwd)"
 source_path="$root_path/../CLI11/"
 build_path="$root_path/CLI11_build/"
