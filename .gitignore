@@ -6,7 +6,8 @@ CLI11/*
 libgit2/*
 protobuf/*
 benchmark/*
-re2/*
+benchmark/*
+fmt/*
 
 **/ubuntu-22-04/*
 !**/ubuntu-22-04/googletest.sh
@@ -18,4 +19,4 @@ re2/*
 !**/ubuntu-22-04/libgit2.sh
 !**/ubuntu-22-04/benchmark.sh
 !**/ubuntu-22-04/re2.sh
-
+!**/ubuntu-22-04/fmt.sh

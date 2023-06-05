@@ -22,3 +22,6 @@
 [submodule "re2"]
 	path = re2
 	url = https://github.com/google/re2.git
+[submodule "fmt"]
+	path = fmt
+	url = https://github.com/fmtlib/fmt.git
