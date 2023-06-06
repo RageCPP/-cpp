@@ -9,6 +9,7 @@ benchmark/*
 benchmark/*
 fmt/*
 openssl/*
+zlib/*
 
 **/ubuntu-22-04/*
 !**/ubuntu-22-04/googletest.sh
@@ -21,3 +22,5 @@ openssl/*
 !**/ubuntu-22-04/benchmark.sh
 !**/ubuntu-22-04/re2.sh
 !**/ubuntu-22-04/fmt.sh
+
+# zlib 1.2.13
