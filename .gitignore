@@ -22,5 +22,6 @@ zlib/*
 !**/ubuntu-22-04/benchmark.sh
 !**/ubuntu-22-04/re2.sh
 !**/ubuntu-22-04/fmt.sh
+!**/ubuntu-22-04/zlib.sh
 
 # zlib 1.2.13
