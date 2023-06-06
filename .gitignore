@@ -8,6 +8,7 @@ protobuf/*
 benchmark/*
 benchmark/*
 fmt/*
+openssl/*
 
 **/ubuntu-22-04/*
 !**/ubuntu-22-04/googletest.sh
