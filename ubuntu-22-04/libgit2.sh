@@ -18,8 +18,7 @@ generate_build() {
   # https://github.com/libgit2/libgit2#advanced-usage
   cmake -DCMAKE_CXX_STANDARD=17 \
         -DCMAKE_INSTALL_BINDIR="$install_path" \
-        -DCMAKE_INSTALL_LIBDIR="$install_path" \
-        -DCMAKE_INSTALL_INCLUDEDIR="$install_path" \
+        -DCMAKE_INSTALL_PREFIX="$install_path" \
         -DBUILD_SHARED_LIBS:BOOL=OFF \
         -DCMAKE_BUILD_TYPE=Release \
         -DUSE_THREADS:BOOL=OFF \
