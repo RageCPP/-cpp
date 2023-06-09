@@ -10,6 +10,7 @@ benchmark/*
 fmt/*
 openssl/*
 zlib/*
+Catch2/*
 
 **/ubuntu-22-04/*
 !**/ubuntu-22-04/googletest.sh
@@ -24,3 +25,4 @@ zlib/*
 !**/ubuntu-22-04/fmt.sh
 !**/ubuntu-22-04/zlib.sh
 !**/ubuntu-22-04/openssl.sh
+!**/ubuntu-22-04/Catch2.sh

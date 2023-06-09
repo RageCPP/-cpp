@@ -31,3 +31,6 @@
 [submodule "zlib"]
 	path = zlib
 	url = https://github.com/madler/zlib.git
+[submodule "Catch2"]
+	path = Catch2
+	url = https://github.com/catchorg/Catch2.git
