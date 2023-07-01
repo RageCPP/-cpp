@@ -3,7 +3,7 @@
 root_path="$(pwd)"
 source_path="$root_path/../re2/"
 build_path="$root_path/re2_build/"
-install_path="$root_path/re2 _install/"
+install_path="$root_path/re2_install/"
 
 google_install_path="$root_path/googletest_install/"
 benchmark_install_path="$root_path/benchmark_install/"

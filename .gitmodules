@@ -34,3 +34,6 @@
 [submodule "Catch2"]
 	path = Catch2
 	url = https://github.com/catchorg/Catch2.git
+[submodule "efsw"]
+	path = efsw
+	url = https://github.com/SpartanJ/efsw.git
