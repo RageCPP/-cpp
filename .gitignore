@@ -27,3 +27,4 @@ efsw/*
 !**/ubuntu-22-04/zlib.sh
 !**/ubuntu-22-04/openssl.sh
 !**/ubuntu-22-04/Catch2.sh
+!**/ubuntu-22-04/efsw.sh
