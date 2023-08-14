@@ -37,3 +37,6 @@
 [submodule "efsw"]
 	path = efsw
 	url = https://github.com/SpartanJ/efsw.git
+[submodule "grpc"]
+	path = grpc
+	url = https://github.com/grpc/grpc

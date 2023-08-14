@@ -12,6 +12,7 @@ openssl/*
 zlib/*
 Catch2/*
 efsw/*
+grpc/*
 
 **/ubuntu-22-04/*
 !**/ubuntu-22-04/googletest.sh
@@ -28,3 +29,4 @@ efsw/*
 !**/ubuntu-22-04/openssl.sh
 !**/ubuntu-22-04/Catch2.sh
 !**/ubuntu-22-04/efsw.sh
+!**/ubuntu-22-04/grpc.sh
