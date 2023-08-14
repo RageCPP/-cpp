@@ -1,42 +1,56 @@
 [submodule "googletest"]
 	path = googletest
 	url = https://github.com/google/googletest.git
+  ignore = untracked
 [submodule "abseil-cpp"]
 	path = abseil-cpp
 	url = https://github.com/abseil/abseil-cpp.git
+  ignore = untracked
 [submodule "protobuf"]
 	path = protobuf
 	url = https://github.com/protocolbuffers/protobuf.git
+  ignore = untracked
 [submodule "CLI11"]
 	path = CLI11
 	url = https://github.com/CLIUtils/CLI11.git
+  ignore = untracked
 [submodule "libgit2"]
 	path = libgit2
 	url = https://github.com/libgit2/libgit2.git
+  ignore = untracked
 [submodule "capnproto"]
 	path = capnproto
 	url = https://github.com/capnproto/capnproto.git
+  ignore = untracked
 [submodule "benchmark"]
 	path = benchmark
 	url = https://github.com/google/benchmark.git
+  ignore = untracked
 [submodule "re2"]
 	path = re2
 	url = https://github.com/google/re2.git
+  ignore = untracked
 [submodule "fmt"]
 	path = fmt
 	url = https://github.com/fmtlib/fmt.git
+  ignore = untracked
 [submodule "openssl"]
 	path = openssl
 	url = https://github.com/openssl/openssl.git
+  ignore = untracked
 [submodule "zlib"]
 	path = zlib
 	url = https://github.com/madler/zlib.git
+  ignore = untracked
 [submodule "Catch2"]
 	path = Catch2
 	url = https://github.com/catchorg/Catch2.git
+  ignore = untracked
 [submodule "efsw"]
 	path = efsw
 	url = https://github.com/SpartanJ/efsw.git
+  ignore = untracked
 [submodule "grpc"]
 	path = grpc
 	url = https://github.com/grpc/grpc
+  ignore = untracked
