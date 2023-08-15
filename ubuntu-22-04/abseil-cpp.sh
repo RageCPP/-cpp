@@ -23,7 +23,7 @@ generate_build() {
   if [ -d "$google_install_path" ]; then
     cmake -DCMAKE_CXX_STANDARD=17 \
     -DCMAKE_BUILD_TYPE=Release \
-    -DABSL_PROPAGATE_CXX_STD=ON \
+    -DABSL_PROPAGATE_CXX_STD=OFF \
     -DABSL_BUILD_TESTING=ON \
     -DCMAKE_PREFIX_PATH:PATH="$google_install_path" \
     -DABSL_FIND_GOOGLETEST=ON \
