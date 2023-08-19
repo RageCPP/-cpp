@@ -1,23 +1,16 @@
 #!/bin/sh
 
 root_path="$(pwd)"
+clear_sh_path="$root_path/common_sh/clear.sh"
+
 source_path="$root_path/../CLI11/"
-build_path="$root_path/CLI11_build/"
+build_path="$root_path/CLI11_build"
 install_path="$root_path/CLI11_install/"
 
 boost_install_path="$root_path/boost_install/"
 
-clear_path() {
-  if [ ! -d "$1" ]; then
-    mkdir "$1"
-  else
-    rm -rf "$1/*"
-  fi
-}
-
 generate_build() {
-  clear_path "$build_path"
-
+  eval "sh ${clear_sh_path} ${build_path}"
   if [ -d "$boost_install_path" ]; then
     cmake -DBOOST_ROOT="$boost_install_path" \
       -DCLI11_BOOST:BOOL=ON \
@@ -35,7 +28,7 @@ build() {
 }
 
 install() {
-  clear_path "$install_path"
+  eval "sh ${clear_sh_path} ${install_path}"
 
   cmake --install "$build_path" --prefix="$install_path"
 }
