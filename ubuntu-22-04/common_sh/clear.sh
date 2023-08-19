@@ -1,8 +1,8 @@
 clear_path() {
   if [ ! -d "$1" ]; then
-    mkdir "$1"
+    eval "mkdir ${1}"
   else
-    rm -rf "$1/*"
+    eval "rm -rf ${1}/*"
   fi
 }
 
