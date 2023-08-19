@@ -14,19 +14,6 @@ Catch2/*
 efsw/*
 grpc/*
 
-**/ubuntu-22-04/*
-!**/ubuntu-22-04/googletest.sh
-!**/ubuntu-22-04/abseil-cpp.sh
-!**/ubuntu-22-04/protobuf.sh
-!**/ubuntu-22-04/boost.sh
-!**/ubuntu-22-04/CLI11.sh
-!**/ubuntu-22-04/sqlite3.sh
-!**/ubuntu-22-04/libgit2.sh
-!**/ubuntu-22-04/benchmark.sh
-!**/ubuntu-22-04/re2.sh
-!**/ubuntu-22-04/fmt.sh
-!**/ubuntu-22-04/zlib.sh
-!**/ubuntu-22-04/openssl.sh
-!**/ubuntu-22-04/Catch2.sh
-!**/ubuntu-22-04/efsw.sh
-!**/ubuntu-22-04/grpc.sh
+/ubuntu-22-04/*
+!/ubuntu-22-04/common_sh/
+!/ubuntu-22-04/*.sh
