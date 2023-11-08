@@ -42,14 +42,14 @@ static_generate_build() {
 share_generate_build() {
   eval "sh ${clear_sh_path} ${share_build_path}"
 
-  if [ -d "$google_install_path" -a -d "$share_abseil_cpp_install_path" ]; then
+  if [ -d "$share_abseil_cpp_install_path" ]; then
     cmake -DCMAKE_CXX_STANDARD=17 \
           -DCMAKE_BUILD_TYPE=Release \
-          -DCMAKE_PREFIX_PATH:PATH="${google_install_path};${share_abseil_cpp_install_path}" \
+          -DCMAKE_PREFIX_PATH:PATH="${share_abseil_cpp_install_path}" \
           -Dprotobuf_ABSL_PROVIDER=ON \
           -Dprotobuf_ABSL_PROVIDER=package \
-          -Dprotobuf_BUILD_TESTS=ON \
-          -Dprotobuf_USE_EXTERNAL_GTEST=ON \
+          -Dprotobuf_BUILD_TESTS=OFF \
+          -Dprotobuf_USE_EXTERNAL_GTEST=OFF \
           -Dprotobuf_BUILD_SHARED_LIBS=ON \
           -DCMAKE_POSITION_INDEPENDENT_CODE=ON \
           -S "$source_path" \
